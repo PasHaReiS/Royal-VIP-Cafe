@@ -1,0 +1,7 @@
+{
+  "name": "Royal VIP Cafe - Tavla & Okey Salonu",
+  "description": "İstanbul'un en seçkin kahve ve oyun salonu atmosferinde en üst kalite Tavla ve 4 Kişilik Okey masaları. Eksiksiz kurallar, gerçekçi ses efektleri ve kafe ambiyansı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

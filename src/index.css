@@ -1,0 +1,896 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #0b0604;
+    color: #ede4d1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-royal {
+    font-family: var(--font-cinzel);
+  }
+}
+
+/* =========================================================================
+   MUSEUM-GRADE SHIRAZ CEDARWOOD & KHATAM-KÂRI (İRAN SEDİR HATEMKÂRİ TAVLA)
+   ========================================================================= */
+
+/* Deep Solid Walnut Casing with Satin Lacquered Finish (Photo-Accurate) */
+.iran-sedir-casing {
+  background: 
+    radial-gradient(ellipse at 50% 20%, rgba(135, 78, 42, 0.22) 0%, transparent 70%),
+    linear-gradient(135deg, #3d2012 0%, #29140a 45%, #180a04 85%, #0c0502 100%);
+  box-shadow: 
+    inset 0 0 45px rgba(0, 0, 0, 0.95),
+    inset 0 2px 3px rgba(220, 160, 90, 0.25),
+    0 25px 50px -12px rgba(0, 0, 0, 0.95),
+    0 0 0 2px rgba(120, 75, 35, 0.4);
+}
+
+/* Authentic Natural Walnut Playing Surface with Vertical Grain Striations */
+.iran-sedir-surface {
+  background: 
+    repeating-linear-gradient(
+      90deg,
+      #3a1f12 0px,
+      #442617 4px,
+      #351c10 8px,
+      #3f2315 13px,
+      #2c150b 17px,
+      #48291a 22px,
+      #381e11 26px
+    );
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.85);
+}
+
+/* Authentic Inlaid Marquetry Inner Border Ribbon (Photo-Accurate Mosaic) */
+.khatam-ribbon-h {
+  background: repeating-linear-gradient(
+    90deg,
+    #1d0d06 0px,
+    #1d0d06 5px,
+    #4a2233 5px,
+    #4a2233 9px,
+    #ecd8b8 9px,
+    #ecd8b8 12px,
+    #2c150b 12px,
+    #2c150b 16px,
+    #9c6e3b 16px,
+    #9c6e3b 19px,
+    #1d0d06 19px,
+    #1d0d06 24px
+  );
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.85), 0 0.5px 1px rgba(255, 255, 255, 0.1);
+}
+
+.khatam-ribbon-v {
+  background: repeating-linear-gradient(
+    180deg,
+    #1d0d06 0px,
+    #1d0d06 5px,
+    #4a2233 5px,
+    #4a2233 9px,
+    #ecd8b8 9px,
+    #ecd8b8 12px,
+    #2c150b 12px,
+    #2c150b 16px,
+    #9c6e3b 16px,
+    #9c6e3b 19px,
+    #1d0d06 19px,
+    #1d0d06 24px
+  );
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.85);
+}
+
+/* Subtle checker resting groove (Flute) */
+.checker-nest-flute {
+  background: radial-gradient(circle at 50% 50%, rgba(8, 3, 1, 0.5) 0%, rgba(0, 0, 0, 0.1) 70%, transparent 100%);
+  border-radius: 9999px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* =========================================================================
+   AUTHENTIC SOLID TURNED WOODEN CHECKERS (HAKİKİ DOĞAL MASİF TORNA PULLAR)
+   Exact match to uploaded photo: Lathe-carved concentric groove & flat core
+   ========================================================================= */
+
+/* White Checker: Natural Solid Blonde Boxwood / Maple (Şimşir / Akçaağaç Torna Pul) */
+.checker-white-iran {
+  background: radial-gradient(circle at 38% 34%, #fff5e4 0%, #ecd3a5 42%, #d7b57b 78%, #ad854c 100%);
+  box-shadow: 
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.95),
+    inset 0 -2.5px 3.5px rgba(100, 68, 25, 0.55),
+    0 4px 6px -1px rgba(0, 0, 0, 0.75),
+    0 2px 3px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(175, 130, 70, 0.8);
+}
+
+/* Concentric Carved Canal Groove (Torna Dairesel Oyuntu Kanalı) */
+.checker-white-iran::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 9999px;
+  border: 1px solid rgba(135, 95, 45, 0.45);
+  box-shadow: 
+    inset 0 1.5px 2px rgba(90, 60, 20, 0.45),
+    0 0.8px 1px rgba(255, 255, 255, 0.7);
+}
+
+/* Center Turned Wooden Button Core (Merkez Düz Ahşap Torna Göbeği) */
+.checker-white-iran::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  height: 38%;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 40% 40%, #fff7eb 0%, #e2c595 65%, #c49e5d 100%);
+  border: 1px solid rgba(145, 105, 55, 0.5);
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.85),
+    0 1px 1.5px rgba(0, 0, 0, 0.25);
+}
+
+/* Black Checker: Natural Solid Dark Walnut Wood (Doğal Ceviz Ağacı Torna Pul) */
+.checker-black-iran {
+  background: radial-gradient(circle at 38% 34%, #4a291a 0%, #351c10 45%, #221008 85%, #140803 100%);
+  box-shadow: 
+    inset 0 1.5px 2px rgba(255, 175, 115, 0.35),
+    inset 0 -2.5px 4px rgba(0, 0, 0, 0.95),
+    0 4px 6px -1px rgba(0, 0, 0, 0.88),
+    0 2px 3px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(130, 80, 40, 0.7);
+}
+
+/* Concentric Carved Canal Groove (Torna Dairesel Oyuntu Kanalı) */
+.checker-black-iran::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 9999px;
+  border: 1px solid rgba(90, 50, 20, 0.45);
+  box-shadow: 
+    inset 0 1.5px 2px rgba(0, 0, 0, 0.75),
+    0 0.8px 1px rgba(255, 150, 80, 0.25);
+}
+
+/* Center Turned Wooden Button Core (Merkez Düz Ahşap Torna Göbeği) */
+.checker-black-iran::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  height: 38%;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 40% 40%, #522e1e 0%, #381e12 65%, #221008 100%);
+  border: 1px solid rgba(110, 65, 30, 0.5);
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 170, 110, 0.3),
+    0 1px 1.5px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================================================================
+   AUTHENTIC TOURNAMENT BACKGAMMON DICE (HAKİKİ TURNUVA SEDEF/FİLDİŞİ TAVLA ZARLARI)
+   ========================================================================= */
+
+.backgammon-die-face {
+  background: radial-gradient(circle at 35% 30%, #ffffff 0%, #faf6eb 40%, #eee2ca 82%, #d7c19a 100%);
+  border: 0.5px solid rgba(165, 125, 75, 0.85);
+  border-radius: 2px;
+  box-shadow: 
+    inset 0.8px 0.8px 1px rgba(255, 255, 255, 0.98),
+    inset -0.8px -0.8px 1px rgba(110, 75, 30, 0.45);
+}
+
+.die-pip {
+  background: radial-gradient(circle at 35% 35%, #2a1f1a 0%, #120904 70%, #000000 100%);
+  border-radius: 9999px;
+  box-shadow: 
+    inset 0 0.5px 0.7px rgba(0, 0, 0, 0.95),
+    0 0.2px 0.3px rgba(255, 255, 255, 0.45);
+}
+
+.die-pip-red {
+  background: radial-gradient(circle at 35% 30%, #ff4d4d 0%, #dc2626 50%, #991b1b 85%, #500707 100%);
+  border-radius: 9999px;
+  box-shadow: 
+    inset 0 0.5px 0.7px rgba(0, 0, 0, 0.8),
+    0 0.3px 0.5px rgba(255, 180, 180, 0.55);
+}
+
+/* Authentic Contact Occlusion Shadow on Persian Cedar */
+.tavla-die-shadow {
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.45) 50%, rgba(0, 0, 0, 0) 75%);
+  filter: blur(1px);
+}
+
+/* =========================================================================
+   PHYSICAL MULTI-RAIL COLLISION & EXTENDED BOUNCE TRAJECTORIES (~1.4s)
+   "Kenarlara ve ahşap bara çarpıp seken, uzun süreli gerçekçi tavla zarı fiziği"
+   ========================================================================= */
+
+/* White Throw Trajectory: Die 1 (Strikes Right Wood Rail, Ricochets to Bar, Bounces onto Walnut Floor) */
+@keyframes tavla-throw-white-1 {
+  0% {
+    transform: translate3d(50px, 95px, 110px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.35);
+  }
+  16% {
+    /* 1. HARD SLAM into Right Wooden Rail (Küpeşte Çarpması) */
+    transform: translate3d(140px, 25px, 18px) rotateX(420deg) rotateY(320deg) rotateZ(180deg) scale(1.15);
+  }
+  24% {
+    /* Violent Ricochet off Rail back across the court */
+    transform: translate3d(95px, -10px, 65px) rotateX(680deg) rotateY(540deg) rotateZ(270deg) scale(1.25);
+  }
+  42% {
+    /* 2. Secondary Clack against Center Wooden BAR Rail */
+    transform: translate3d(-95px, 15px, 20px) rotateX(1120deg) rotateY(920deg) rotateZ(410deg) scale(1.12);
+  }
+  50% {
+    /* Rebound into open court */
+    transform: translate3d(-45px, 5px, 48px) rotateX(1360deg) rotateY(1100deg) rotateZ(490deg) scale(1.18);
+  }
+  64% {
+    /* 3. Primary Bounce on Walnut Wood Floor */
+    transform: translate3d(18px, 0px, 8px) rotateX(1740deg) rotateY(1420deg) rotateZ(600deg) scale(1.05);
+  }
+  78% {
+    /* 4. Secondary Hop */
+    transform: translate3d(8px, -6px, 22px) rotateX(1940deg) rotateY(1620deg) rotateZ(660deg) scale(1.08);
+  }
+  89% {
+    /* 5. Tertiary Micro-hop */
+    transform: translate3d(3px, 2px, 7px) rotateX(2080deg) rotateY(1740deg) rotateZ(700deg) scale(1.03);
+  }
+  95% {
+    /* Slide and settle */
+    transform: translate3d(1px, 0px, 2px) rotateX(2140deg) rotateY(1785deg) rotateZ(715deg) scale(1.01);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(2160deg) rotateY(1800deg) rotateZ(720deg) scale(1);
+  }
+}
+
+/* White Throw Trajectory: Die 2 (Strikes Center Wooden BAR, Ricochets to Bottom Rail, Settles Off-Center) */
+@keyframes tavla-throw-white-2 {
+  0% {
+    transform: translate3d(-20px, 85px, 115px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.4);
+  }
+  18% {
+    /* 1. HARD SLAM into Center Wooden BAR */
+    transform: translate3d(-125px, 20px, 18px) rotateX(-450deg) rotateY(-360deg) rotateZ(-180deg) scale(1.16);
+  }
+  26% {
+    /* Violent Ricochet diagonally back into court */
+    transform: translate3d(-75px, -15px, 60px) rotateX(-720deg) rotateY(-580deg) rotateZ(-290deg) scale(1.24);
+  }
+  44% {
+    /* 2. Secondary Clack against Outer Wooden Border */
+    transform: translate3d(115px, 10px, 22px) rotateX(-1200deg) rotateY(-960deg) rotateZ(-440deg) scale(1.12);
+  }
+  52% {
+    /* Rebound into lower playing field */
+    transform: translate3d(60px, -5px, 45px) rotateX(-1420deg) rotateY(-1140deg) rotateZ(-520deg) scale(1.18);
+  }
+  66% {
+    /* 3. Primary Bounce on Walnut Floor */
+    transform: translate3d(-10px, -4px, 8px) rotateX(-1800deg) rotateY(-1460deg) rotateZ(-620deg) scale(1.05);
+  }
+  80% {
+    /* 4. Secondary Hop */
+    transform: translate3d(5px, -8px, 20px) rotateX(-1980deg) rotateY(-1620deg) rotateZ(-670deg) scale(1.07);
+  }
+  90% {
+    /* 5. Tertiary Micro-hop */
+    transform: translate3d(1px, 2px, 6px) rotateX(-2100deg) rotateY(-1740deg) rotateZ(-705deg) scale(1.02);
+  }
+  96% {
+    /* Slide and settle */
+    transform: translate3d(-1px, 0px, 2px) rotateX(-2145deg) rotateY(-1785deg) rotateZ(-716deg) scale(1.01);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(-2160deg) rotateY(-1800deg) rotateZ(-720deg) scale(1);
+  }
+}
+
+/* Black (Haydar Usta) Throw Trajectory: Die 1 (Strikes Right Wood Rail from top) */
+@keyframes tavla-throw-black-1 {
+  0% {
+    transform: translate3d(50px, -95px, 110px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.35);
+  }
+  16% {
+    /* 1. HARD SLAM into Right Rail */
+    transform: translate3d(140px, -25px, 18px) rotateX(-420deg) rotateY(320deg) rotateZ(-180deg) scale(1.15);
+  }
+  24% {
+    /* Rebound */
+    transform: translate3d(95px, 10px, 65px) rotateX(-680deg) rotateY(540deg) rotateZ(-270deg) scale(1.25);
+  }
+  42% {
+    /* 2. Clack against Center Bar */
+    transform: translate3d(-95px, -15px, 20px) rotateX(-1120deg) rotateY(920deg) rotateZ(-410deg) scale(1.12);
+  }
+  50% {
+    transform: translate3d(-45px, -5px, 48px) rotateX(-1360deg) rotateY(1100deg) rotateZ(-490deg) scale(1.18);
+  }
+  64% {
+    /* 3. Primary Bounce on Walnut Floor */
+    transform: translate3d(18px, 0px, 8px) rotateX(-1740deg) rotateY(1420deg) rotateZ(-600deg) scale(1.05);
+  }
+  78% {
+    transform: translate3d(8px, 6px, 22px) rotateX(-1940deg) rotateY(1620deg) rotateZ(-660deg) scale(1.08);
+  }
+  89% {
+    transform: translate3d(3px, -2px, 7px) rotateX(-2080deg) rotateY(1740deg) rotateZ(-700deg) scale(1.03);
+  }
+  95% {
+    transform: translate3d(1px, 0px, 2px) rotateX(-2140deg) rotateY(1785deg) rotateZ(-715deg) scale(1.01);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(-2160deg) rotateY(1800deg) rotateZ(-720deg) scale(1);
+  }
+}
+
+/* Black (Haydar Usta) Throw Trajectory: Die 2 (Strikes Center BAR from top) */
+@keyframes tavla-throw-black-2 {
+  0% {
+    transform: translate3d(-20px, -85px, 115px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.4);
+  }
+  18% {
+    /* 1. SLAM into Center BAR */
+    transform: translate3d(-125px, -20px, 18px) rotateX(450deg) rotateY(-360deg) rotateZ(180deg) scale(1.16);
+  }
+  26% {
+    transform: translate3d(-75px, 15px, 60px) rotateX(720deg) rotateY(-580deg) rotateZ(290deg) scale(1.24);
+  }
+  44% {
+    /* 2. Secondary Clack against Outer Rail */
+    transform: translate3d(115px, -10px, 22px) rotateX(1200deg) rotateY(-960deg) rotateZ(440deg) scale(1.12);
+  }
+  52% {
+    transform: translate3d(60px, 5px, 45px) rotateX(1420deg) rotateY(-1140deg) rotateZ(520deg) scale(1.18);
+  }
+  66% {
+    /* 3. Primary Bounce */
+    transform: translate3d(-10px, 4px, 8px) rotateX(1800deg) rotateY(-1460deg) rotateZ(620deg) scale(1.05);
+  }
+  80% {
+    transform: translate3d(5px, 8px, 20px) rotateX(1980deg) rotateY(-1620deg) rotateZ(670deg) scale(1.07);
+  }
+  90% {
+    transform: translate3d(1px, -2px, 6px) rotateX(2100deg) rotateY(-1740deg) rotateZ(705deg) scale(1.02);
+  }
+  96% {
+    transform: translate3d(-1px, 0px, 2px) rotateX(2145deg) rotateY(-1785deg) rotateZ(716deg) scale(1.01);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotateX(2160deg) rotateY(-1800deg) rotateZ(720deg) scale(1);
+  }
+}
+
+.animate-tavla-throw-white-1 {
+  animation: tavla-throw-white-1 1.38s cubic-bezier(0.16, 0.85, 0.22, 1) forwards;
+}
+
+.animate-tavla-throw-white-2 {
+  animation: tavla-throw-white-2 1.40s cubic-bezier(0.18, 0.88, 0.24, 1) forwards;
+}
+
+.animate-tavla-throw-black-1 {
+  animation: tavla-throw-black-1 1.38s cubic-bezier(0.16, 0.85, 0.22, 1) forwards;
+}
+
+.animate-tavla-throw-black-2 {
+  animation: tavla-throw-black-2 1.40s cubic-bezier(0.18, 0.88, 0.24, 1) forwards;
+}
+
+/* Dynamic Shadow tracking rail collision & bounces */
+@keyframes tavla-shadow-bounce-1 {
+  0% {
+    transform: translate3d(50px, 15px, 0) scale(0.6);
+    opacity: 0.2;
+    filter: blur(3px);
+  }
+  16% {
+    /* Shadow at rail */
+    transform: translate3d(140px, 5px, 0) scale(1.08);
+    opacity: 0.55;
+    filter: blur(2px);
+  }
+  24% {
+    transform: translate3d(95px, 0px, 0) scale(1.35);
+    opacity: 0.3;
+    filter: blur(4px);
+  }
+  42% {
+    /* Shadow at BAR */
+    transform: translate3d(-95px, 5px, 0) scale(1.08);
+    opacity: 0.55;
+    filter: blur(2px);
+  }
+  50% {
+    transform: translate3d(-45px, 0px, 0) scale(1.3);
+    opacity: 0.35;
+    filter: blur(3.5px);
+  }
+  64% {
+    /* Hard ground contact */
+    transform: translate3d(18px, 0px, 0) scale(1.02);
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+  78% {
+    transform: translate3d(8px, 0px, 0) scale(1.2);
+    opacity: 0.4;
+    filter: blur(3px);
+  }
+  89% {
+    transform: translate3d(3px, 0px, 0) scale(1.01);
+    opacity: 0.8;
+    filter: blur(1px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+}
+
+@keyframes tavla-shadow-bounce-2 {
+  0% {
+    transform: translate3d(-20px, 15px, 0) scale(0.6);
+    opacity: 0.2;
+    filter: blur(3px);
+  }
+  18% {
+    /* Shadow at BAR */
+    transform: translate3d(-125px, 5px, 0) scale(1.08);
+    opacity: 0.55;
+    filter: blur(2px);
+  }
+  26% {
+    transform: translate3d(-75px, 0px, 0) scale(1.35);
+    opacity: 0.3;
+    filter: blur(4px);
+  }
+  44% {
+    /* Shadow at rail */
+    transform: translate3d(115px, 5px, 0) scale(1.08);
+    opacity: 0.55;
+    filter: blur(2px);
+  }
+  52% {
+    transform: translate3d(60px, 0px, 0) scale(1.3);
+    opacity: 0.35;
+    filter: blur(3.5px);
+  }
+  66% {
+    /* Hard ground contact */
+    transform: translate3d(-10px, 0px, 0) scale(1.02);
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+  80% {
+    transform: translate3d(5px, 0px, 0) scale(1.2);
+    opacity: 0.4;
+    filter: blur(3px);
+  }
+  90% {
+    transform: translate3d(1px, 0px, 0) scale(1.01);
+    opacity: 0.8;
+    filter: blur(1px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.85;
+    filter: blur(1px);
+  }
+}
+
+.animate-tavla-shadow-1 {
+  animation: tavla-shadow-bounce-1 1.38s cubic-bezier(0.16, 0.85, 0.22, 1) forwards;
+}
+
+.animate-tavla-shadow-2 {
+  animation: tavla-shadow-bounce-2 1.40s cubic-bezier(0.18, 0.88, 0.24, 1) forwards;
+}
+
+/* Dynamic Shadows syncing with 3D bounces */
+@keyframes shadow-bounce-1 {
+  0% {
+    transform: translate3d(-100px, 30px, 0) scale(0.6);
+    opacity: 0.15;
+    filter: blur(8px);
+  }
+  25% {
+    transform: translate3d(-40px, 15px, 0) scale(1.2);
+    opacity: 0.85;
+    filter: blur(1.5px);
+  }
+  50% {
+    transform: translate3d(-10px, 20px, 0) scale(0.7);
+    opacity: 0.35;
+    filter: blur(6px);
+  }
+  75% {
+    transform: translate3d(10px, 10px, 0) scale(1.05);
+    opacity: 0.75;
+    filter: blur(2px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.7;
+    filter: blur(2px);
+  }
+}
+
+@keyframes shadow-bounce-2 {
+  0% {
+    transform: translate3d(-80px, 35px, 0) scale(0.65);
+    opacity: 0.15;
+    filter: blur(8px);
+  }
+  28% {
+    transform: translate3d(-30px, 18px, 0) scale(1.2);
+    opacity: 0.85;
+    filter: blur(1.5px);
+  }
+  55% {
+    transform: translate3d(5px, 20px, 0) scale(0.7);
+    opacity: 0.35;
+    filter: blur(6px);
+  }
+  78% {
+    transform: translate3d(12px, 8px, 0) scale(1.05);
+    opacity: 0.75;
+    filter: blur(2px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.7;
+    filter: blur(2px);
+  }
+}
+
+.animate-shadow-bounce-1 {
+  animation: shadow-bounce-1 0.75s cubic-bezier(0.2, 0.8, 0.25, 1) forwards;
+}
+
+.animate-shadow-bounce-2 {
+  animation: shadow-bounce-2 0.78s cubic-bezier(0.22, 0.82, 0.28, 1) forwards;
+}
+
+/* Antique Persian Cast Brass Hardware */
+.persian-brass-hinge {
+  background: linear-gradient(135deg, #fae29f 0%, #c89d56 45%, #7a581a 85%, #422d07 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 235, 175, 0.7);
+}
+
+.brass-corner-bracket {
+  background: linear-gradient(135deg, #f7d995 0%, #c89d56 45%, #825f1e 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 235, 175, 0.65);
+}
+
+/* Felt and Okey Elements - Authentic Turkish Walnut Automatic Okey Table (Koyu Füme / Yeşil Çuha & Masif Ceviz Kasa) */
+.felt-green {
+  background: 
+    radial-gradient(circle at 50% 45%, #2a3d34 0%, #1c2b24 50%, #111a16 100%);
+  box-shadow: 
+    inset 0 0 100px rgba(0, 0, 0, 0.85),
+    inset 0 0 20px rgba(0, 0, 0, 0.95);
+}
+
+/* Master Walnut Okey Table Frame (Fotoğraftaki Parlak Ceviz/Maun Çerçeve & Çekmeceli Kasa) */
+.okey-master-table {
+  background: 
+    linear-gradient(135deg, #441e0f 0%, #2f1308 25%, #421c0e 50%, #220c04 75%, #3a170a 100%);
+  border: 12px solid #38180c;
+  box-shadow: 
+    0 25px 60px -10px rgba(0, 0, 0, 0.98),
+    inset 0 3px 4px rgba(255, 210, 150, 0.4),
+    inset 0 -6px 12px rgba(0, 0, 0, 0.95),
+    0 0 0 3px #180903,
+    0 0 0 6px #4a2313;
+  border-radius: 28px;
+}
+
+/* Center automatic round tile lift / mixer disc (Fotoğraftaki otomatik masa orta asansör diski) */
+.okey-table-center-disc {
+  background: 
+    radial-gradient(circle, #3d4a44 0%, #27342e 55%, #18221d 100%);
+  border: 4px solid #141c18;
+  box-shadow: 
+    inset 0 3px 8px rgba(0, 0, 0, 0.9),
+    0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Authentic Turkish Wooden Okey Istaka (Hakiki Gürgen / Masif Kayın & Ceviz Eğimli Istaka) */
+.okey-wooden-istaka {
+  background: 
+    linear-gradient(180deg, 
+      #5a2a14 0%, 
+      #783719 3%, 
+      #632e15 12%, 
+      #4a200e 30%, 
+      #351609 60%, 
+      #240d05 85%, 
+      #140602 100%
+    );
+  box-shadow: 
+    0 22px 45px -8px rgba(0, 0, 0, 0.98),
+    inset 0 2px 2px rgba(255, 215, 150, 0.6),
+    inset 0 -5px 8px rgba(0, 0, 0, 0.95),
+    inset 2px 0 3px rgba(255, 200, 140, 0.2),
+    inset -2px 0 3px rgba(0, 0, 0, 0.8),
+    0 0 0 2px #3d1708,
+    0 0 0 3px #1f0b04;
+  border-radius: 12px;
+  position: relative;
+}
+
+/* Authentic Helena Wood Art Oval Curved Wooden Istaka */
+.helena-oval-istaka {
+  background: 
+    radial-gradient(ellipse at 50% 0%, #6d391d 0%, #522511 25%, #3a1708 60%, #1e0b04 100%);
+  box-shadow: 
+    0 26px 55px -8px rgba(0, 0, 0, 0.98),
+    inset 0 4px 3px rgba(255, 215, 160, 0.55),
+    inset 0 -8px 16px rgba(0, 0, 0, 0.95),
+    inset 4px 0 6px rgba(255, 200, 140, 0.25),
+    inset -4px 0 6px rgba(0, 0, 0, 0.8),
+    0 0 0 2px #441a0a,
+    0 0 0 4px #1a0802;
+  border-radius: 28px 28px 16px 16px;
+  position: relative;
+}
+
+/* Istaka Curved Wooden Shelf (Fotoğraftaki basamakların oturduğu koyu masif oluk) */
+.helena-curved-shelf {
+  background: linear-gradient(180deg, #180903 0%, #260f06 35%, #180903 100%);
+  border-radius: 18px;
+  border: 1.5px solid #4a210d;
+  box-shadow: 
+    inset 0 8px 16px rgba(0, 0, 0, 0.98),
+    inset 0 -2px 3px rgba(255, 210, 150, 0.15),
+    0 4px 8px rgba(0, 0, 0, 0.85);
+}
+
+/* Helena Brass Inlay End Plates (Yan Metal Plakalar: vidalı pirinç döküm) */
+.helena-brass-plate {
+  background: linear-gradient(180deg, #c5a059 0%, #8c6827 25%, #d4b26f 50%, #75521b 80%, #a88237 100%);
+  box-shadow: 
+    inset 0 1px 1px #fff3d1,
+    inset 0 -1px 2px #3d2708,
+    0 3px 6px rgba(0, 0, 0, 0.8);
+  border: 1px solid #5a3d12;
+}
+
+/* Helena Mother of Pearl & Geometric Mosaic Inlay Medallion (Sedef ve Mozaik İşleme) */
+.helena-mosaic-crest {
+  background: 
+    radial-gradient(circle at 50% 50%, #170904 0%, #0d0402 100%);
+  border: 1.5px solid #d4af37;
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.9),
+    inset 0 0 10px rgba(0, 0, 0, 0.95),
+    inset 0 0 0 1px rgba(245, 213, 141, 0.4);
+}
+
+/* Istaka Bevel Shelf with Physical Deep Slotted Rails (Ahşap Istaka Basamakları) */
+.okey-istaka-shelf {
+  background: 
+    linear-gradient(180deg, 
+      #130602 0%, 
+      #1c0803 25%, 
+      #290f06 50%, 
+      #170702 100%
+    );
+  box-shadow: 
+    inset 0 8px 14px rgba(0, 0, 0, 0.98),
+    inset 0 -2px 3px rgba(255, 200, 140, 0.15),
+    0 3px 6px rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  border: 1.5px solid #3d190b;
+}
+
+/* Realistic Tile Slot Rail - Physical wood ledge where okey tiles rest */
+.okey-tile-rail {
+  background: linear-gradient(180deg, #100401 0%, #1a0702 40%, #250b04 80%, #0e0401 100%);
+  box-shadow: 
+    inset 0 5px 8px rgba(0, 0, 0, 0.95),
+    0 2px 3px rgba(0, 0, 0, 0.6);
+  border-bottom: 2.5px solid #6b3317;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Opponent Top Istaka (Seen from the front/back) */
+.okey-istaka-top-view {
+  background: linear-gradient(180deg, #2b1307 0%, #462211 40%, #2f160a 100%);
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.75),
+    inset 0 1px 1.5px rgba(240, 190, 130, 0.3),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+}
+
+/* Opponent Side Istaka (Seen from the side angle with standing stones) */
+.okey-istaka-side-view {
+  background: linear-gradient(90deg, #2b1307 0%, #4d2613 45%, #230d04 100%);
+  box-shadow: 
+    0 6px 16px rgba(0, 0, 0, 0.85),
+    inset 1px 0 1.5px rgba(240, 190, 130, 0.25),
+    inset -2px 0 3px rgba(0, 0, 0, 0.9);
+  border-radius: 8px;
+}
+
+/* Authentic Rustic Handcrafted Bone / Aged Boxwood Okey Stone (Rustik Masif Eskitme Kemik / Ahşap Taş) */
+.okey-stone {
+  background: 
+    radial-gradient(ellipse at 50% 15%, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 65%),
+    linear-gradient(180deg, #fefcf7 0%, #f7efe1 25%, #ede0cb 72%, #d7c1a2 100%);
+  box-shadow: 
+    0 4px 8px -1px rgba(15, 8, 4, 0.75),
+    0 2px 4px rgba(20, 10, 5, 0.6),
+    inset 0 2px 1px #ffffff,
+    inset 0 -3.5px 3px rgba(135, 95, 55, 0.65),
+    inset 1.5px 0 1px rgba(255, 255, 255, 0.8),
+    inset -1.5px 0 1px rgba(165, 130, 90, 0.45);
+  border-radius: 6px;
+  border: 1px solid #bba486;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s ease;
+}
+
+/* Opponent Hidden Stone Back & Draw Pile (Taş Sırtı - Doğal Kemik / Eskitme Ahşap Doku) */
+.okey-stone-back {
+  background: 
+    radial-gradient(ellipse at 50% 20%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 70%),
+    linear-gradient(180deg, #fefbf4 0%, #f3e8d2 45%, #e1d0b3 85%, #cfba99 100%);
+  box-shadow: 
+    0 4px 7px rgba(15, 8, 4, 0.7),
+    inset 0 1.5px 1px #ffffff,
+    inset 0 -2.5px 2px rgba(135, 95, 55, 0.6),
+    inset 1px 0 1px rgba(255, 255, 255, 0.75),
+    inset -1px 0 1px rgba(160, 125, 85, 0.4);
+  border-radius: 6px;
+  border: 1px solid #bba486;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f8e19e 0%, #d4af37 40%, #aa821d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #110704;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b1d10;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c89d56;
+}
+
+/* =========================================================================
+   SALON VENUE AMBIANCE THEMES (OYUN SALONU MEKANLARI)
+   ========================================================================= */
+
+/* 1. Tarihi Taş Han (Kapalıçarşı & Taş Kemerler & Kehribar Işıklar) */
+.venue-tarihi-han {
+  background-color: #0d0704;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(200, 157, 86, 0.16) 0%, transparent 60%),
+    radial-gradient(circle at 10% 40%, rgba(139, 69, 19, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 90% 40%, rgba(139, 69, 19, 0.2) 0%, transparent 50%),
+    linear-gradient(180deg, #130905 0%, #0d0603 50%, #070302 100%);
+}
+
+/* 2. Boğaz Manzaralı Teras (İstanbul Boğazı & Gün Batımı & Lacivert Sular) */
+.venue-bogaz-teras {
+  background-color: #060c14;
+  background-image: 
+    radial-gradient(circle at 50% -10%, rgba(56, 189, 248, 0.18) 0%, transparent 55%),
+    radial-gradient(circle at 80% 30%, rgba(217, 119, 6, 0.16) 0%, transparent 60%),
+    radial-gradient(circle at 20% 70%, rgba(14, 116, 144, 0.14) 0%, transparent 50%),
+    linear-gradient(180deg, #091322 0%, #060d17 50%, #03060a 100%);
+}
+
+/* 3. Modern VIP Lounge (Nişantaşı Bistro & Akustik Ahşap Çıtalar & Neon) */
+.venue-modern-kafe {
+  background-color: #0a0a0d;
+  background-image: 
+    radial-gradient(circle at 50% 10%, rgba(224, 169, 109, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 85% 85%, rgba(168, 85, 247, 0.08) 0%, transparent 50%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.015) 0px, rgba(255, 255, 255, 0.015) 1px, transparent 1px, transparent 40px),
+    linear-gradient(180deg, #111116 0%, #0a0a0d 50%, #050507 100%);
+}
+
+/* =========================================================================
+   AUTOMATIC OKEY TABLE ELEVATOR DISC ANIMATIONS (ASANSÖR DİSKİ)
+   ========================================================================= */
+
+@keyframes elevator-descend-spin {
+  0% {
+    transform: scale(1) translateY(0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8), inset 0 0 0 2px #5a2e16;
+  }
+  30% {
+    transform: scale(0.92) translateY(12px);
+    box-shadow: inset 0 15px 30px rgba(0, 0, 0, 0.95), 0 0 0 4px #f59e0b;
+  }
+  60% {
+    transform: scale(0.90) translateY(16px) rotate(180deg);
+    box-shadow: inset 0 25px 40px rgba(0, 0, 0, 0.98), 0 0 20px rgba(245, 158, 11, 0.8);
+  }
+  85% {
+    transform: scale(0.96) translateY(4px) rotate(360deg);
+    box-shadow: inset 0 8px 15px rgba(0, 0, 0, 0.7), 0 0 15px rgba(56, 189, 248, 0.6);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotate(360deg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8), inset 0 0 0 2px #5a2e16;
+  }
+}
+
+.animate-elevator-shuffle {
+  animation: elevator-descend-spin 2.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+/* Horizontal scrollbar styling for category / navigation bar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.thin-gold-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+.thin-gold-scrollbar::-webkit-scrollbar-track {
+  background: rgba(27, 18, 12, 0.4);
+  border-radius: 9999px;
+}
+.thin-gold-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(200, 157, 86, 0.35);
+  border-radius: 9999px;
+}
+.thin-gold-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 157, 86, 0.65);
+}
+
+
